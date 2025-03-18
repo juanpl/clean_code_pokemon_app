@@ -6,6 +6,6 @@ abstract class PokemonsRepository {
 
   Future<Either<Failure, Pokemon>> getPokemon(int id);
   Future<Either<Failure, bool>> capturePokemon(Pokemon pokemon);
-  Future<Either<Failure, List<Pokemon>>> getCapture(int id);
+  Future<Either<Failure, List<Pokemon>>> getCapturePokemons();
 
 }
