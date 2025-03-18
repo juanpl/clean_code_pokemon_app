@@ -24,5 +24,9 @@ class PokemonModel extends Pokemon {
     };
   }
 
+  factory PokemonModel.fromEntity(Pokemon pokemon) {
+    return PokemonModel(name: pokemon.name, image: pokemon.image, id: pokemon.id);
+  }
+
 
 }
