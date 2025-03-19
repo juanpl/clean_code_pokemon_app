@@ -1,4 +1,5 @@
 import 'package:clean_code_pokemon_app/features/pokemon/presentation/bloc/search_pokemon/search_pokemon_bloc.dart';
+import 'package:clean_code_pokemon_app/features/pokemon/presentation/widgets/pokemon_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
